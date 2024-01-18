@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Courier New', Courier, monospace;
+
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364, #2193b0, #6dd5ed);
+  background-attachment: fixed; /* Keep the gradient fixed in place */
+  background-size: cover; /* Ensure the gradient covers the entire background */
+  min-height: 100vh; /* Minimum height to cover the full viewport height */
+  margin: 0; /* Remove default margin */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  cursor: pointer;
 }
