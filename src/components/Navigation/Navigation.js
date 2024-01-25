@@ -2,7 +2,6 @@ import React from 'react';
 
 const Navigation = ({ onRouteChange, isSignedIn }) => {
     if(isSignedIn) {
-        console.log("Yeah");
         return (
             <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
               <div className="ph3">
@@ -12,7 +11,6 @@ const Navigation = ({ onRouteChange, isSignedIn }) => {
         );
     }
     else {
-        console.log("Nah");
         return (
             <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
                 <div className="ph3">
