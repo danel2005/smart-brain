@@ -128,7 +128,7 @@ class App extends Component {
     if(faces) this.displayFaceBox(faces);
       
     if(faces) {
-      fetch('http://localhost:3000/image', {
+      fetch('https://smart-brain-api-pmt4.onrender.com/image', {
         method: 'put',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
